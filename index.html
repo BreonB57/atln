@@ -14,11 +14,13 @@
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/recaptcha.css">
@@ -36,7 +38,11 @@
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
             <div class="navbar-brand">
-                
+                <span class="navbar-logo">
+                    <a href="#">
+                        <img src="assets/images/atlasnodes-logo-121x121.png" alt="" style="height: 3.8rem;">
+                    </a>
+                </span>
                 <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-5" href="#">AtlasNodes</a></span>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,19 +57,24 @@
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
                         <a class="nav-link link text-white text-primary display-4" href="index.html">
                             Home</a>
-                    </li>
+                    </li><li class="nav-item dropdown"><a class="nav-link link text-white text-primary dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
+                            About</a><div class="dropdown-menu"><a class="text-white text-primary dropdown-item display-4" href="about.html">About Us</a><a class="text-white text-primary dropdown-item display-4" href="about.html">Our Visions</a><a class="text-white text-primary dropdown-item display-4" href="faq.html">FAQs</a><a class="text-white text-primary dropdown-item display-4" href="terms-policies.html">Terms/Policies</a><a class="text-white text-primary dropdown-item display-4" href="https://au.trustpilot.com/review/atlasnodes.com">Trustpilot</a></div></li>
                     
-                    <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="page2.html">
+                    <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="contact.html">
                             Contact</a></li>
 
                     
-                    <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="page1.html">Plans</a></li></ul>
+                    <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="plans.html">Plans</a></li></ul>
                 <div class="icons-menu">
-                    <a href=" " target="_blank">
+                    <a href="https://discord.gg/q2r4jry" target="_blank">
                         <span class="p-2 mbr-iconfont socicon-discord socicon"></span>
                     </a>
-                    
-                    
+                    <a href="https://www.youtube.com/channel/UCgK-D-rKlpzWVao2juZRX3A" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-youtube socicon"></span>
+                    </a>
+                    <a href="https://www.instagram.com/atlasnodes/" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
+                    </a>
                     
                     
                     
@@ -84,7 +95,7 @@
                 
                 <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"><strong>HOSTING.</strong><br><strong>SIMPLIFIED.</strong><strong><br></strong></h1>
                 <p class="mbr-text pb-3 mbr-white mbr-light mbr-fonts-style display-7">Don't deal with all the complexities or high costs of server hosting<br></p>
-                <div class="mbr-section-btn"><a class="btn btn-sm btn-primary-outline display-4" href="page1.html"><span class="mobi-mbri mobi-mbri-paper-plane mbr-iconfont mbr-iconfont-btn"></span>VIEW PLANS</a></div>
+                <div class="mbr-section-btn"><a class="btn btn-sm btn-primary-outline display-4" href="plans.html"><span class="mobi-mbri mobi-mbri-paper-plane mbr-iconfont mbr-iconfont-btn"></span>VIEW PLANS</a></div>
 
             </div>
 
@@ -151,8 +162,36 @@
                     </div>
                 </div>
             </div>
-            
-            
+            <div class="card col-12 col-md-6 col-lg-4">
+                <div class="card-wrapper align-center">
+                    <div class="img-wrapper">
+                        <span class="mbr-iconfont fa-shield fa"></span>
+                    </div>
+                    <div class="card-box align-center">
+
+                        <h4 class="mbr-section-title pb-2 mbr-semibold mbr-fonts-style display-5">DDOS Protection</h4>
+                        <p class="mbr-section-text align-center mbr-regular pb-2 mbr-fonts-style display-7">
+                            All our servers come with powerful DDOS Protection</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-4">
+                <div class="card-wrapper align-center">
+                    <div class="img-wrapper">
+                        <span class="mbr-iconfont fa-clock-o fa"></span>
+                    </div>
+                    <div class="card-box align-center">
+
+                        <h4 class="mbr-section-title pb-2 mbr-semibold mbr-fonts-style display-5">Free Trials Available</h4>
+                        <p class="mbr-section-text align-center mbr-regular pb-2 mbr-fonts-style display-7">
+                            Contact us for a free 24 hour trial on a server</p>
+
+                        
+                    </div>
+                </div>
+            </div>
             <div class="card last col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper align-center">
                     <div class="img-wrapper">
@@ -168,6 +207,198 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="extInfo cid-sjxwufbrbv mbr-parallax-background" id="extInfo1-10">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(4, 4, 2);">
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12">
+                
+                <h2 class="align-center mbr-fonts-style mbr-section-title display-2">
+                   Supported payment methods</h2>
+            </div>
+
+            <div class="col-12 col-md-12 pt-4">
+                <div class="row justify-content-center">
+                    <ul class="list-inline align-center">
+                        <li class="list-inline-item">
+                            <img src="assets/images/visa.png" alt="Visa">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="assets/images/master-card.png" alt="Master Card">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="assets/images/american-express.png" alt="American Express">
+                        </li>
+                        
+                        <li class="list-inline-item">
+                            <img src="assets/images/diners-club.png" alt="Diners Club">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="assets/images/discover.png" alt="Discover">
+                        </li>
+                        
+                        
+                        <li class="list-inline-item">
+                            <img src="assets/images/jcb.png" alt="JCB">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="assets/images/stripe.png" alt="Stripe">
+                        </li>
+                        
+                        
+                        <li class="list-inline-item">
+                            <img src="assets/images/union-pay.png" alt="Union Pay">
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="extTable section-table cid-sjxybTd55H" id="extTable1-12">
+
+ <!-- plugins="dataTables"  -->
+
+    
+
+    
+    <div class="container">
+        <div class="media-container-row align-center">
+            <div class="col-12 col-md-12">
+                <h2 class="mbr-section-title mbr-fonts-style mbr-black pb-3 display-2">
+                    How we compare</h2>
+                
+                <div class="table-wrapper">
+                    <div class="container scroll">
+                        <table class="table  mx-auto" cellspacing="0">
+                            <thead>
+                                <tr class="table-heads">
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                <th class="head-item mbr-fonts-style display-5">AtlasNodes</th><th class="head-item mbr-fonts-style display-5">MCProHosting</th><th class="head-item mbr-fonts-style display-5">BisectHosting</th></tr>
+                            </thead>
+
+                            <tbody>
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+                            <tr>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                <td class="body-item mbr-fonts-style display-7">$2/GB</td><td class="body-item mbr-fonts-style display-7">$~6.5/GB</td><td class="body-item mbr-fonts-style display-7">$~4/GB</td></tr><tr>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                <td class="body-item mbr-fonts-style display-7">Unlimited Slots</td><td class="body-item mbr-fonts-style display-7">Limited Slots</td><td class="body-item mbr-fonts-style display-7">Limited Slots</td></tr><tr>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                <td class="body-item mbr-fonts-style display-7">DDOS Protection</td><td class="body-item mbr-fonts-style display-7">DDOS Protection</td><td class="body-item mbr-fonts-style display-7">DDOS Protection</td></tr></tbody>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts1 solutionm4_contacts1 cid-sjxCwfD6K4 mbr-parallax-background" id="contacts1-13">
+    
+    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(0, 0, 0);">
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-7 md-pb">
+                <div class="title-wrapper align-left">
+                    <div class="line"></div>
+                    <h3 class="mbr-section-title mbr-white mbr-semibold pb-2 mbr-fonts-style display-2">Interested?</h3>
+                    <p class="mbr-text mbr-white mbr-regular mbr-fonts-style display-7">Improve your online experience today</p>
+                </div>
+            </div>
+            <div class="col-lg-4 btn-col col-md-5 md-pb">
+                <div class="mbr-section-btn"><a class="btn btn-sm btn-success display-4" href="plans.html"><span class="fa fa-server mbr-iconfont mbr-iconfont-btn"></span>SEE PLANS</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="extTestimonials cid-sjxaXeOPYd" id="extTestimonials2-i">
+    
+    
+
+    
+    <div class="container">
+        <h2 class="mbr-fonts-style mb-3 align-center display-2"><strong>Our <a href="https://au.trustpilot.com/review/atlasnodes.com" class="text-primary"><b>Trustpilot </b></a>Reviews</strong></h2>
+        
+        <div class="row justify-content-center pt-2">
+            <div class="card col-12 col-md-6">
+                <div class="card-box">
+                    <div class="card-header">
+                        <div class="card-img">
+                            <img src="assets/images/mbr-120x88.jpeg" alt="">
+                        </div>
+                        <h4 class="card-title mbr-fonts-style align-center mb-0 mbr-white display-5">
+                            Daniel Khvan</h4>
+                    </div>
+                    <p class="mbr-text card-text mbr-fonts-style align-left m-0 display-7">
+                        Good service and price. Servers are what you would expect from a small business. Customer service takes a day or so to respond. Overall good experience. Would recommend<br><br>
+                    </p>
+                    
+                    
+                </div>
+            </div>
+
+
+            <div class="card col-12 col-md-6">
+                <div class="card-box">
+                    <div class="card-header">
+                        <div class="card-img">
+                            <img src="assets/images/73x73-1-73x73.png" alt="">
+                        </div>
+                        <h4 class="card-title mbr-fonts-style align-center mb-0 mbr-white display-5">Christiaan Wood</h4>
+                    </div>
+                    <p class="mbr-text card-text mbr-fonts-style align-left m-0 display-7">
+                        Great servers and fast with minimal latency. For the price it is an absolute steal and love playing with my friends on my servers. Amazing dashboard but support take about a day to respond but would recommend
+                    </p>
+                    
+                    
+                </div>
+            </div>
+
+
         </div>
     </div>
 </section>
@@ -190,11 +421,9 @@
             </div>
             <div class="col-md-6 second-column col-lg-4">
                 <h2 class="mbr-section-title mbr-fonts-style pb-2 display-5">
-                    Follow Us
-                </h2>
+                    Please Read:</h2>
                 <h3 class="mbr-section-subtitle mbr-fonts-style mbr-lighter display-4">
-                    SOCIAL MEDIA CHANNELS
-                </h3>
+                    <a href="terms-policies.html" class="text-primary">TERMS OF SERVICE</a></h3>
                 
             </div>
             <div class="col-md-7 col-lg-4 third-column">
@@ -206,7 +435,7 @@
                 </h3>
                 <div class="form1 px-3" data-form-type="formoid">
                     <!---Formbuilder Form--->
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="My Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="QfDIsXFXeZyKANpWxYy/s1zptSlvnGrndJOCNhlgGZNFP2h/V0h91bljCeH7GbKjsqKkguEcDU/54UpMiCNh8TduumH3LLNWfo0vWI5iNx2fksL+yS7KAPQNBK//o+bx">
+                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="My Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="cwsiHNoFWMsQC8FptB5euFQde1fRX21eY8zXrtqNt9tEuLifBiuI0sDBgIHgOhxoNBqlZdpmhQfgz02KXG6N9guYzf08SovLzxOdO9o18+0935alpUo6A7Dfm/D4WCiL">
                         <div class="row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks!</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
@@ -235,6 +464,9 @@
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/datatables/jquery.data-tables.min.js"></script>
+  <script src="assets/datatables/data-tables.bootstrap4.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid.min.js"></script>
   
